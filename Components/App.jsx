@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
 
+import Content from './Content.jsx';
+import Header from './Header.jsx';
+
 class App extends Component {
     render(){
-        var myStyle = {
-            fontSize: 100,
-            color: '#ccce63'
-        }
         return (
             <div>
-                <h1 style={myStyle}>Heading</h1>
-                <p>Paragraph one</p>
+                <Header/>
+                <Content/>
             </div>
         );
     }
